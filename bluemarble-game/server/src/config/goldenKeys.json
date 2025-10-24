@@ -1,0 +1,22 @@
+[
+  { "id": 1, "type": "move-start", "text": "출발점으로 이동(+20만원)" },
+  { "id": 2, "type": "move-back-3", "text": "3칸 뒤로 이동" },
+  { "id": 3, "type": "bonus", "amount": 100000, "text": "복권 당첨 +10만원" },
+  { "id": 4, "type": "fine", "amount": 50000, "text": "벌금 -5만원" },
+  { "id": 5, "type": "move-random", "text": "랜덤 위치로 이동" },
+  { "id": 6, "type": "travel-best", "text": "가장 비싼 땅으로 이동" },
+  { "id": 7, "type": "escape-island", "text": "무인도 탈출권" },
+  { "id": 8, "type": "tax-refund", "amount": 80000, "text": "세금 환급 +8만원" },
+  { "id": 9, "type": "repair", "amount": 20000, "text": "건물 유지비 -2만원" },
+  { "id": 10, "type": "gift", "amount": 30000, "text": "선물 +3만원" },
+  { "id": 11, "type": "donation", "amount": 40000, "text": "기부 -4만원" },
+  { "id": 12, "type": "swap", "text": "임의의 플레이어와 위치 교환" },
+  { "id": 13, "type": "toll-free", "text": "한 바퀴 통행료 면제" },
+  { "id": 14, "type": "teleport", "to": 20, "text": "우주여행으로 이동" },
+  { "id": 15, "type": "move-forward-2", "text": "2칸 앞으로 이동" },
+  { "id": 16, "type": "move-forward-5", "text": "5칸 앞으로 이동" },
+  { "id": 17, "type": "salary-bonus", "amount": 200000, "text": "특별 보너스 월급 +20만원" },
+  { "id": 18, "type": "random-tax", "amount": 70000, "text": "특별세 -7만원" },
+  { "id": 19, "type": "lucky-day", "amount": 150000, "text": "럭키데이 +15만원" },
+  { "id": 20, "type": "unlucky-day", "amount": 150000, "text": "언럭키데이 -15만원" }
+]

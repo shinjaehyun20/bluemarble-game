@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+  mongo:
+    image: mongo:6
+    container_name: bluemarble-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+  server:
+    build: ./server
+    container_name: bluemarble-server
+    restart: unless-stopped
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017/bluemarble
+      - SESSION_SECRET=change-me
+      - PORT=4000
+      - CORS_ORIGINS=["http://localhost:5173"]
+    ports:
+      - "4000:4000"
+    depends_on:
+      - mongo
+volumes:
+  mongo_data:
